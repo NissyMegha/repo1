@@ -1,0 +1,13 @@
+.demo {
+    background-color: yellow;
+}
+.demo:hover{
+    background-color: violet;
+}
+.mylink:nth-child(even) {
+    background-color: tomato;
+}
+.mylink:hover:nth-child(odd){
+    background-color: yellowgreen;
+
+}

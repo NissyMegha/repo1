@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="home.html" method="POST">
+    <div>
+        <label for="">firstname</label>
+    </div>
+    <div>
+        <input type="text" name="fname" placeholder="enter your first name">
+    </div>
+    <div>
+        <label for="">lastname</label>
+    </div>
+        <input type="text" name="lname" placeholder="enter your last name">   
+    </div>
+    
+    <div>
+        <label for="">gender</label>
+    </div>
+    <div>
+        male<input type="radio" name="gender" value="male">
+        female<input type="radio" name="gender"value="female">
+    </div>
+    </div>
+    <div>
+        <label for="">state</label>
+    </div>
+
+        <select name="state">
+            <option value="k1">kerala</option>
+            <option value="tn">tamilnadu</option>
+            <option value="kn">karnataka</option>
+            <option value="ga">goa</option>
+        </select>
+    </div>
+    <div>
+    <input type="text" name="fname" required placeholder="enter the firstname">
+    </div>
+    <div>
+        <input type="text" name="fname" minlength="3" required placeholder="enter the firstname">
+
+    </div>
+    <div>
+        <label for="dob">dob:</label>
+        <input type="date" id="dob" name="dob">
+    </div>
+    <div>
+        <label for="age">AGE:</label>
+        <input type="number" id="age" name="age" min="1" max="9">
+    </div>
+    <div>
+        <input type="checkbox" id="student1" name="student1" value="cs">
+        <label for="student1"> I have opted cs</label><br>
+        <input type="checkbox" id="student2" name="student2" value="mech">
+        <label for="student2"> I have opted mech</label><br>
+        <input type="checkbox" id="student3" name="student3" value="civil">
+        <label for="student3"> I have opted civil</label><br>
+    </div>
+    <div>
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email">
+        <div>
+            <label for="sharoo">Password:</label>
+            <input type="password" id="sharoo" name="sharoo">
+        </div>
+        <div>
+            <input type="hidden" id="custId" name="custId" value="3487">
+        </div>
+        <div>
+            <label for="myfile">Select a file:</label>
+            <input type="file" id="myfile" name="myfile">
+
+        </div>
+    </div>
+    <div>
+        <input type="submit" value="register">
+    </div>
+    </form>   
+</body>
+</html>
